@@ -8,7 +8,7 @@ CollabCode is a real-time code editor where multiple users can join a room and c
 - Multiple users can join a room using a shareable room ID.
 - Whenever a new user joins or leaves the room, other users are notified using a pop-up.
 - Code updates are visible in real time to all users in the room.
-- 
+  
 
 ## Technologies Used
 
