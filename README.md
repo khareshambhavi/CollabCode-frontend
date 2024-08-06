@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# CollabCode Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CollabCode is a real-time code editor where multiple users can join a room and collaborate on code. The room ID is shareable, allowing users to see updates to the code in real time as they are typed by other participants.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Real-time code collaboration.
+- Multiple users can join a room using a shareable room ID.
+- Whenever a new user joins or leaves the room, other users are notified using a pop-up.
+- Code updates are visible in real time to all users in the room.
+- 
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Native WebSocket API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure you have the following installed:
 
-### `npm run build`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone  https://github.com/khareshambhavi/CollabCode-frontend.git
+```
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd collabcode-frontend
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Using npm:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+Using yarn:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+yarn install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Running the Project
 
-### Code Splitting
+To start the development server, run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Using npm:
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Using yarn:
 
-### Making a Progressive Web App
+```bash
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The project will be running on [http://localhost:3000](http://localhost:3000).
 
-### Advanced Configuration
+### Building for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To create a production build, run:
 
-### Deployment
+Using npm:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm run build
+```
 
-### `npm run build` fails to minify
+Using yarn:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+yarn build
+```
+
+The production build will be created in the `build` directory.
+
+## Usage
+
+1. Open the application in your browser.
+2. Enter a username and click "Join".
+3. Share the room ID with other participants.
+4. Start collaborating on code in real time!
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
